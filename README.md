@@ -1,4 +1,4 @@
-# 🧠 Exocortex: Brain dump, but smarter
+# 🧠 Exocortex: A scientist's external brain
 ### Motivation : This project extends the concept of "exocortex" proposed in:
 
 ##  Yager, Kevin G. (2024). Towards a science exocortex. Digital Discovery, 3(10). https://doi.org/10.1039/D4DD00175K
