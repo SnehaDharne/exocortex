@@ -1,0 +1,9 @@
+The core conflict lies in the *nature* of the observed reasoning abilities. The support view claims that LLMs *possess* emergent reasoning abilities, implying a genuine form of intelligence, supported by evidence of emergent analogical reasoning, surveys of emergent abilities, multimodal reasoning capabilities, and benchmarks for visual causal reasoning. The oppose view challenges this, suggesting that these abilities are either superficial, limited to specific contexts, or simply a result of in-context learning, as highlighted by papers questioning complex logical reasoning and proposing in-context learning as an alternative explanation.
+
+Both sides acknowledge that LLMs *appear* to perform reasoning tasks, but the disagreement is on the *depth* and *origin* of this performance. Both sides implicitly agree that further research is needed. The support view requires more investigation to understand the mechanisms behind emergent reasoning, while the oppose view needs to explore the limitations and alternative explanations more thoroughly.
+
+Uncertainties remain regarding the extent to which in-context learning contributes to the observed reasoning abilities, the specific types of reasoning that LLMs are capable of, the nuances and shortcomings of LLMs' reasoning, and the reliability of current benchmarks.
+
+The papers likely use different datasets and benchmarks, and the definition of "reasoning" itself may differ. The "Are Emergent Abilities in Large Language Models just In-Context Learning?" paper assumes that in-context learning can fully explain the observed abilities, which may not be valid.
+
+"The ghost in the machine might just be an echo chamber; probe the acoustic properties of the training data to discern signal from noise."

@@ -1,0 +1,7 @@
+Foundation models, particularly large language models (LLMs), exhibit emergent reasoning abilities. This is supported by several research findings:
+
+*   **Emergent Analogical Reasoning:** LLMs demonstrate emergent analogical reasoning capabilities, indicating a sophisticated form of reasoning (Emergent Analogical Reasoning in Large Language Models).
+*   **Survey of Emergent Abilities:** A survey on emergent abilities in LLMs likely compiles evidence of various reasoning skills that emerge as model size increases (Emergent Abilities in Large Language Models: A Survey).
+*   **Multimodal Reasoning:** Multimodal LLMs also showcase reasoning abilities, as highlighted in a comprehensive survey on emerging trends in multimodal reasoning (Exploring the Reasoning Abilities of Multimodal Large Language Models (MLLMs): A Comprehensive Survey on Emerging Trends in Multimodal Reasoning).
+*   **Causal Reasoning in Vision-Language Models:** Large vision-language models are being benchmarked for visual causal reasoning, suggesting that they possess this specific type of reasoning ability (CausalVLBench: Benchmarking Visual Causal Reasoning in Large Vision-Language Models).
+*   **Enhancement of Reasoning:** LLMs can be used to enhance the reasoning abilities of visual-language models, implying that LLMs themselves possess a certain level of reasoning capacity (Enhance Reasoning Ability of Visual-Language Models via Large Language Models).
