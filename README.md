@@ -36,13 +36,13 @@ You can find sample outputs under Outputs/ folder for each task
 ### How It Works
 You ask a question e.g. "Do foundation models show emergent reasoning?"
 The crew:
-    - support agent fetches supporting papers
-    - oppose agent fetches contradictory papers
-    - synthesize agent analyzes the conflict, assumptions, and blind spots
+- support agent fetches supporting papers
+- oppose agent fetches contradictory papers
+- synthesize agent analyzes the conflict, assumptions, and blind spots
 
 The system outputs:
-    - cited summary from each agent
-    - alignments, conflicts and gap for research
+- cited summary from each agent
+- alignments, conflicts and gap for research
 
 
 Getting Started
