@@ -40,6 +40,6 @@ deliberation_task = Task(
     Conclude with a **conflict insight** and suggest next experiment.
     """,
     agent=insight_agent,
-    expected_output = "summarization of output from both agents, highlighting conflicts and gap for research",
+    expected_output = "summarization of output from both agents, highlighting conflicts and gap for research include **alignment**, **conflicts**, **uncertainties**, **assumptions**, **conflict insights**, **next experiment**",
     input_keys=["support_view", "oppose_view"]
 )

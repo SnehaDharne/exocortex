@@ -19,4 +19,4 @@ def run(query):
         f.write(result.tasks_output[2].raw)
             
 if __name__ == "__main__":
-    run('Is LoRA still the best fine-tuning method for LLaMA 2? 16-07-2025')
+    run('Do foundation models show emergent reasoning? 16-07-2025')

@@ -1,0 +1,41 @@
+**Alignment:**
+
+*   Both sides acknowledge that LLMs can perform well on tasks that appear to require reasoning.
+*   Both sides agree on the importance of understanding the mechanisms behind LLM performance.
+*   Both sides use research papers as evidence to back up their claims.
+
+**Conflicts:**
+
+*   **Emergent Reasoning vs. Alternative Mechanisms:** The core conflict lies in whether LLMs genuinely exhibit emergent reasoning abilities or if their performance is primarily driven by memorization, pattern matching, and prompt engineering.
+*   **Interpretation of Evidence:** The same observed behaviors are interpreted differently. Supporters see them as evidence of reasoning, while opponents see them as artifacts of other processes.
+*   **Significance of Prompt Engineering:** Supporters might acknowledge the role of prompts but argue that the model's ability to respond appropriately to well-designed prompts still indicates some level of reasoning. Opponents emphasize that the reasoning is in the prompt, not the model.
+
+**Uncertainties:**
+
+*   **Definition of Reasoning:** There is no universally agreed-upon definition of "reasoning" in the context of LLMs. This ambiguity makes it difficult to definitively prove or disprove the existence of emergent reasoning.
+*   **Quantifying Memorization:** It is challenging to precisely quantify the extent to which memorization contributes to LLM performance. Disentangling memorization from genuine reasoning remains an open problem.
+*   **Generalizability:** It is unclear whether findings from specific tasks or datasets generalize to other domains. LLMs might exhibit different behaviors depending on the context.
+
+**Assumptions:**
+
+*   **Support View:** Assumes that if an LLM can perform a task that typically requires reasoning in humans, then the LLM is also reasoning.
+*   **Oppose View:** Assumes that if an LLM's behavior can be explained by memorization or prompt engineering, then it is not genuinely reasoning.
+*   **Both Views:** Both sides implicitly assume that current benchmarks and evaluation methods are sufficient for assessing reasoning abilities in LLMs.
+
+**Conflict Insight:**
+
+The central conflict arises from differing interpretations of LLM behavior and a lack of clear criteria for distinguishing genuine reasoning from other mechanisms. The "reasoning" observed in LLMs might be a spectrum, with some tasks relying more on memorization and pattern matching, while others might genuinely require some form of novel inference. The current debate is hampered by the difficulty of isolating and quantifying the various factors that contribute to LLM performance.
+
+**Next Experiment:**
+
+To address the conflict, a targeted experiment could be designed to disentangle memorization from reasoning. This experiment would involve:
+
+1.  **Creating a novel reasoning task:** Design a task that requires multi-step inference and cannot be solved by simple pattern matching or retrieval of memorized information. The task should involve concepts and relationships that are unlikely to be present in the LLM's training data.
+2.  **Controlled Vocabulary:** Limit the vocabulary used in the task to a small, well-defined set of words. This reduces the likelihood of the LLM relying on memorized associations between words.
+3.  **Generating Synthetic Data:** Create a synthetic dataset for the task, allowing for precise control over the statistical properties of the data. This enables researchers to manipulate the amount of memorization required to solve the task.
+4.  **Varying Training Data:** Train multiple LLMs on different subsets of the synthetic data, varying the amount of memorization required.
+5.  **Evaluating Performance:** Evaluate the performance of the trained LLMs on the novel reasoning task. Measure both accuracy and the ability to generalize to unseen examples.
+6.  **Analyzing Attention Patterns:** Analyze the attention patterns of the LLMs to identify whether they are attending to relevant information during the reasoning process. This can provide insights into the mechanisms underlying their performance.
+7.  **Ablation Studies:** Conduct ablation studies to determine the importance of different components of the LLM architecture for solving the reasoning task.
+
+By carefully controlling the training data and task design, this experiment can provide stronger evidence for or against the existence of emergent reasoning in LLMs. The analysis of attention patterns and ablation studies can further shed light on the mechanisms underlying LLM performance.

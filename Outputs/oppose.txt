@@ -1,5 +1,0 @@
-While large language models (LLMs) have shown impressive performance on various tasks, several papers suggest limitations and alternative explanations for their apparent reasoning abilities.
-
-*   **Towards a Deeper Understanding of Reasoning Capabilities in Large Language Models:** This paper likely explores the nuances and potential shortcomings of reasoning in LLMs, suggesting that a deeper investigation is needed to fully understand their capabilities.
-*   **Do Large Language Models Excel in Complex Logical Reasoning with Formal Language?:** This paper directly questions the ability of LLMs to perform complex logical reasoning, particularly when using formal languages. This challenges the notion that LLMs possess robust reasoning skills.
-*   **Are Emergent Abilities in Large Language Models just In-Context Learning?:** This paper proposes that the "emergent abilities" observed in LLMs might simply be a result of in-context learning, rather than genuine reasoning. This provides an alternative explanation for the observed behavior, suggesting that the abilities are not truly "emergent" but rather a consequence of the training data and prompting techniques.
