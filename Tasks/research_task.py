@@ -35,6 +35,7 @@ oppose_task = Task(
 deliberation_task = Task(
     description="""
     Analyze the outputs from support_view and oppose_view.
+    Keep invoking the agents of support and opposing views to answer each other deliberations. make sure this loop goes on 3-4 times before u start syntheszing summaries.  
     Highlight where the evidence **conflicts**, where it **aligns**, and what remains **uncertain**.
     If both views rely on different datasets, benchmarks, or assumptions — surface that.
     Conclude with a **conflict insight** and suggest next experiment.
