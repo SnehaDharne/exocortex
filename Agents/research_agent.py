@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 llm1 = LLM(
-    model="gemini/gemini-2.0-flash",
+    model="gemini/gemini-2.5-flash",
     temperature=0,
     api_key= os.getenv("GEMINI_API_KEY"),
     

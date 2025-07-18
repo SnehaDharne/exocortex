@@ -19,4 +19,9 @@ def run(query):
         f.write(result.tasks_output[2].raw)
             
 if __name__ == "__main__":
-    run('Do foundation models show emergent reasoning? 16-07-2025')
+    run('Do transformer-based architectures outperform CNNs for vision tasks? 16-08-2025')
+    
+    
+#sample queries to run : 1. Do foundation models show emergent reasoning?,
+#                        2. Are smaller LLMs (7B and below) viable alternatives with efficient fine-tuning like QLoRA?
+#                        3. Do transformer-based architectures outperform CNNs for vision tasks?
